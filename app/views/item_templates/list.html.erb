@@ -1,0 +1,10 @@
+<h1>Hello world!</h1>
+
+<% @items.each do |item| %>
+<div>
+    <a 
+    href="<%= item.link_url %>">
+    <%= item.link_description %>
+    </a>
+</div>
+<% end %>
